@@ -3,13 +3,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[packages]
-pandas = "*"
-plotly = "*"
-nbformat = "*"
-
 [dev-packages]
 ipykernel = "*"
 
 [requires]
 python_version = "3.12"
+
+[packages]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+pydantic = "*"
+plotly = "*"
+nbformat = "*"
