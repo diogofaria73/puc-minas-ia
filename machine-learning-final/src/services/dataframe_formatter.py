@@ -8,6 +8,3 @@ def header_formatter(df: pd.DataFrame) -> pd.DataFrame:
         '/', '_').str.replace('(', '').str.replace(')', '').str.lower()
 
     return df
-
-
-›
